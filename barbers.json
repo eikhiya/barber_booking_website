@@ -1,0 +1,12 @@
+{"barbers":[
+	{
+		"image": "Kpaw-Images/lay.jpg",
+		"name":"Lay Kpaw Wah",
+		"bio":"My name is Lay Kpaw Wah. I go to a barber school called Beyond Measure Barbering Institute in Mebane, NC. I have been in for 6 months. My goal is to open up my own barber shop one day."
+	},
+	{
+		"image": "Sasuke-Images/sasuke.jpg",
+		"name":"Sasuke",
+		"bio":"My name is Sasuke. I go to a barber school called Beyond Measure Barbering Institute in Mebane, NC. I have been in for 4 months. My goal is to open up my own barber shop one day."
+    }
+]}

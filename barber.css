@@ -1,0 +1,30 @@
+
+/* Set the style for barber1 and barber2 page */
+
+
+/* Style the barber section */
+#barber1 {
+    padding: 10px;
+    text-align: center;
+}
+#barber1 h2 {
+    font-size: 2.5rem;
+    font-family: Hoefler Text;
+}
+#barber2 {
+    padding: 10px;
+    text-align: center;
+}
+#barber2 h2 {
+    font-size: 2.5rem;
+    font-family: Hoefler Text;
+}
+
+
+/* Style the slider section */
+#barber-gallery {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

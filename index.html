@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>K'nyaw Cutz Pa Nay</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<!-- Header content including the navigation bar-->
+	<header>
+		<h1>K'nyaw Cutz Pa Nay</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="barber1.html">Lay KPaw Wah</a></li>
+				<li><a href="barber2.html">Sasuke</a></li>
+				<li><a href="booking.html">Booking</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<!-- Main content -->
+	<main>
+		<section id="intro">
+			<h2>Welcome to K'nyaw Cutz Pa Nay</h2>
+			<p>Your hair is our canvas. Let our skilled barbers create a masterpiece.</p>
+			<a href="booking.html" class="btn-primary">Book Now</a>
+		</section>
+		
+		<section id="about-us">
+			<h2>About Us</h2>
+			<p>Our two barbers are highly skilled professionals with plenty of experience. 
+				We pride ourselves on delivering top-quality haircuts and grooming services to our clients.</p>
+			<!-- <a href="#" class="btn-secondary">Learn More</a> -->
+
+			<!-- ajax call -->
+			<div id="barbers"></div>
+		</section>
+		
+		<section id="services">
+			<h2>Services</h2>
+			<ul>
+				<li>Haircuts</li>
+				<li>Hair Styling</li>
+				<li>Hair Coloring</li>
+				<li>Scalp Treatments</li>
+				<li>Beard and Mustache Grooming</li>
+				<li>Shaves</li>
+			</ul>
+		</section>
+		
+		<section id="gallery">
+			<h2>Gallery</h2>
+			<div id="carousel">
+				<div id="left_button" class="child"><img src="Project-Images/left.jpg" alt=""></div>
+				<div id="display_panel" class="child">
+					<ul id="image_list">
+						<li><a><img src="Project-Images/image1.jpg" alt="Image"></a></li>
+						<li><a><img src="Project-Images/image2.jpg" alt="Image"></a></li>
+						<li><a><img src="Project-Images/image3.jpg" alt="Image"></a></li>
+						<li><a><img src="Kpaw-Images/image6.JPG" alt="Image"></a></li>
+						<li><a><img src="Sasuke-Images/image1.jpg" alt="Image"></a></li>
+						<li><a><img src="Kpaw-Images/image7.JPG" alt="Image"></a></li>
+						<li><a><img src="Sasuke-Images/image2.jpg" alt="Image"></a></li>
+						<li><a><img src="Kpaw-Images/image3.jpg" alt="Image"></a></li>
+						<li><a><img src="Sasuke-Images/image5.JPG" alt="Image"></a></li>
+					</ul>
+				</div>
+				<div id="right_button" class="child"><img src="Project-Images/right.jpg" alt=""></div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Footer content -->
+	<footer id="footer">
+		<p>K'nyaw Cutz Pa Nay</p>
+		<p>1234 Cutz Street, Chapel Hill, NC 27516-0001. 919-123-4567</p>
+		<p>&copy; 2023 K'nyaw Cutz Pa Nay | All rights reserved |</p>
+	</footer>
+	
+	<!-- JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="gallery.js"></script>
+	<script src="barber.json.js"></script>
+</body>
+</html>

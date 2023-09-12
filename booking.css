@@ -1,0 +1,56 @@
+
+/* Set the style for the booking and confirmation page */
+
+
+/* Style the booking section and the form */
+#booking {
+    padding: 40px;
+    text-align: center;
+}
+#booking p{
+    font-size: 1.5rem;
+    font-family: Hoefler Text;
+}
+#booking-form {
+    padding: 1px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#booking-form h2 {
+    font-family: arial black;
+    font-size: 30px;
+}
+#booking-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#booking-form label{
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+#booking-form input,
+#booking-form textarea {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 3px solid #cccccc;
+}
+#booking-form input[type="submit"] {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#booking-form input[type="submit"]:hover {
+    background-color: #4CAF50;
+}
+
+
+/* Style the confirmation page */
+#confirmation {
+    padding: 40px;
+    margin: 10px;
+}
